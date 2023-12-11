@@ -112,6 +112,10 @@ fieldset legend {
     margin-left: 9px;
 }
 
+.input-model span:hover {
+    color: #85818e;
+}
+
 h3 {
     color: #535971;
     font-family: 'Staatliches', sans-serif;
@@ -172,4 +176,8 @@ button {
     font-weight: 400;
 
     padding: 15px 40px;
+}
+
+button:hover {
+    background: #d77487;
 }
