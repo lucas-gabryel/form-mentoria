@@ -60,6 +60,7 @@ form {
 
 fieldset {
     border: none;
+    margin-bottom: 30px;
 }
 
 fieldset legend {
@@ -109,4 +110,14 @@ fieldset legend {
     font-size: 12px;
 
     margin-left: 9px;
+}
+
+.tree-colum {
+    display: flex;
+    gap: 32px;
+}
+
+.time {
+    display: flex;
+    gap: 10px;
 }
