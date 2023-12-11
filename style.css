@@ -1,10 +1,10 @@
-/** {
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-}*/
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -21,7 +21,7 @@ header::before {
     height: 436px;
     background: #535971;
 
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     z-index: -1;
@@ -112,6 +112,13 @@ fieldset legend {
     margin-left: 9px;
 }
 
+h3 {
+    color: #535971;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .tree-colum {
     display: flex;
     gap: 32px;
@@ -120,4 +127,49 @@ fieldset legend {
 .time {
     display: flex;
     gap: 10px;
+}
+
+.input-model-time {
+    display: flex;
+    flex-direction: column;
+    width: 140px;  
+}
+
+.input-model-time input {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    margin-top: 8px;
+    height: 56px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    
+    background: #535971;
+    border-radius: 0 0 20px 20px;
+    width: 750px;
+    height: 160px;
+
+    padding: 42px 70px;
+    margin-bottom: 100px;
+
+    align-items: center;
+}
+
+button {
+    width: 608px;
+    height: 55px;
+    border: none;
+    border-radius: 20px;
+    background: #FF5374;
+
+    color: white;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    padding: 15px 40px;
 }
